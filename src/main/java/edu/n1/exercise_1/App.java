@@ -16,7 +16,7 @@ public class App {
 		try {
 			System.out.println("Total de la venda 1: " + sale.calculateTotal());
 		} catch (EmptySaleException e) {
-		System.out.println("Missatge excepció: \"EmptySaleException\": " + e.getMessage());
+			System.out.println("Missatge excepció: \"EmptySaleException\": " + e.getMessage());
 		}
 
 		Sale voidSale = new Sale();
@@ -27,8 +27,8 @@ public class App {
 			System.out.println("Missatge excepció \"EmptySaleException\": " + e.getMessage());
 		}
 
-		int[] array= {1,2,3};
-		
+		int[] array = { 1, 2, 3 };
+
 		try {
 			array[3] = 0;
 		} catch (ArrayIndexOutOfBoundsException e) {
